@@ -7,6 +7,9 @@ import BoxColor from './boxcolor';
 import CreditCard from './CreditCard';
 import Rating from './Ratings';
 import DriverCard from './DriverCard';
+import LikeButton from './LikeButton';
+import ClickablePicture from './ClickablePicture';
+import Dice from './Dice';
 
 function App() {
   return (
@@ -101,6 +104,18 @@ function App() {
           licensePlate: "BE33ER"
         }} />
       </div>
+      <div>
+      <LikeButton /> <LikeButton />
+      </div>
+      <div>
+      <ClickablePicture
+        img= ".././src/img/persons/maxence.png"
+        imgClicked= ".././src/img/persons/maxence-glasses.png"
+      />
+      </div>
+      {/* <div>
+      <Dice />
+      </div> */}
 
     </div>
   );
